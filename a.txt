@@ -1,0 +1,11 @@
+git init = initializes an empty repository
+git status = displays the current untracked or tracked file status
+git add .  = adds all the changes the git
+git commit -m "message-to-display"
+git restore --staged filename = unstages the staged file
+git log  = shows all the commits
+git reset <hashID of the commit> = takes you to that commit and removes all the commits done after that particular commit
+git stash = saves the current state in background
+git stash pop =brings back the background state previously saved
+git stash clear = clears background
+remote add <origin(basically a name)> <url> 
