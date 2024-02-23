@@ -8,4 +8,8 @@ git reset <hashID of the commit> = takes you to that commit and removes all the 
 git stash = saves the current state in background
 git stash pop =brings back the background state previously saved
 git stash clear = clears background
-remote add <origin(basically a name)> <url> 
+git remote add <origin(basically a name)> <url>  = links to the repo
+git remote -v = shows all connectes repos
+git branch <branchname> = creates a new branch with the given name
+git checkout <branchname> = shift to that branch for commits or whatever
+git merge <branchname> = merges the named branch with the main branch
