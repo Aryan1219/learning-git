@@ -13,3 +13,20 @@ git remote -v = shows all connectes repos
 git branch <branchname> = creates a new branch with the given name
 git checkout <branchname> = shift to that branch for commits or whatever
 git merge <branchname> = merges the named branch with the current branch
+
+
+"""""""""""""""""""""
+# Remove the files from the repository
+git rm --cached 2.py 3.py 4.py
+
+# Commit the removal
+git commit -m "Remove files 2.py, 3.py, and 4.py"
+
+# Add or update the .gitignore file
+echo -e "2.py\n3.py\n4.py" >> .gitignore
+
+# Commit the .gitignore file
+git add .gitignore
+git commit -m "Add .gitignore to ignore files"
+
+"""""""""""""""""""
