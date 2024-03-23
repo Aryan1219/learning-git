@@ -15,6 +15,25 @@ git checkout <branchname> = shift to that branch for commits or whatever
 git merge <branchname> = merges the named branch with the current branch
 
 
+
+
+
+
+"""
+to_remove_the_existing_origin_and_add_new_one: git remote rm origin
+
+usage : {
+  git remote show origin    
+  git remote rm origin    
+  git add .    
+  git commit -m "First commit"    
+  git remote add origin Copied_origin_url    
+  git remote show origin   
+  git push origin master
+}
+"""
+
+
 """""""""""""""""""""
 # Remove the files from the repository
 git rm --cached 2.py 3.py 4.py
